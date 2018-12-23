@@ -15,12 +15,6 @@ def timeme(method):
         return result
     return wrapper
 
-#x=datetime.today()
-#y=x.replace(day=x.day+1, hour=23, minute=16, second=30, microsecond=0)
-#delta_t=y-x
-
-#secs=delta_t.seconds+1
-
 @timeme
 def order():
     # Adds item to Cart
@@ -47,8 +41,6 @@ def order():
     driver.find_element_by_xpath('//*[@id="cart-cc"]/fieldset/p[2]/label/div/ins').click()
     driver.find_element_by_xpath('//*[@id="pay"]/input').click()
 
-#t = Timer(secs, order)
-#t.start()
 
 if __name__ == '__main__':
         # Loads up chrome 
