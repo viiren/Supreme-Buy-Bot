@@ -3,9 +3,9 @@ keys = {
         "name": "Viren W",
         "email": "testemail@gmail.com",
         "phone_number": "6789998212",
-        "street_address": "1 royal avenue",
-        "city": "Hamilton",
-        "zip_code": "L2S2C5",
-        "card_cvv": "666",
-        "card_number": "1228199669918221"
+        "street_address": "1 Royal Avenue",
+        "city": "City",
+        "zip_code": "L4S2G5",
+        "card_cvv": "123",
+        "card_number": "1234567890123456"
 }
