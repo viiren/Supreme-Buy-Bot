@@ -1,8 +1,7 @@
 from selenium import webdriver
 from config import keys
 import time
-#from datetime import datetime
-#from threading import Timer
+
 
 
 #Timer which inputs time taken for each item to process. 
